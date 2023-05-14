@@ -1,14 +1,18 @@
 <script setup>
-import { RouterView, RouterLink } from 'vue-router'
+// import TheDefaultLayout from './layouts/TheDefaultLayout.vue';
 </script>
 
 <template>
   <div id="app">
-  <div id="nav">
-    <router-link to="/">Home</router-link>
-    <router-link to="/rockets">Rockets</router-link>
-  </div>
-  <RouterView />
+    <router-view />
+    <!-- <TheDefaultLayout> -->
+     <!-- <div id="nav">
+        <router-link to="/">Home</router-link>
+        <router-link to="/rockets">Rockets</router-link>
+      </div>
+      <RouterView /> -->
+    <!-- </TheDefaultLayout> -->
+ 
   </div>
   
 </template>
